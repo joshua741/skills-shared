@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "last_updated": null,
+    "last_run": null,
+    "last_run_type": null,
+    "total_runs": 0
+  },
+  "contact_intelligence": {
+    "_description": "Every person ever seen in email, GHL, or Notion. Keyed by email address.",
+    "contacts": {}
+  },
+  "deal_intelligence": {
+    "_description": "Every active deal learned from Notion tasks, email, and GHL. Keyed by property address.",
+    "deals": {}
+  },
+  "sender_classification_registry": {
+    "_description": "Every email sender ever encountered, classified by type and tier. Keyed by email address or domain.",
+    "senders": {}
+  },
+  "learned_routing_rules": {
+    "_description": "Routing preferences inferred from task patterns, Suggestions, and observed behavior. Never hardcoded.",
+    "rules": []
+  },
+  "active_pipeline_context": {
+    "_description": "Current GHL pipeline state as of last read. Updated every run.",
+    "last_queried": null,
+    "pipelines": []
+  }
+}
