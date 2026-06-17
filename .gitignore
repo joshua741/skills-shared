@@ -1,0 +1,30 @@
+# ── Existing local skills — NOT shared (contain live credentials / per-user setup) ──
+# Per setup decision: only skills created from here on are synced to the shared repo.
+# To start sharing one of these, FIRST strip any hardcoded tokens, then remove its line below.
+doorloop-payment-sync/
+ghl-task-sync/
+mostafa-task-priority/
+skill-builder/
+subscriptions-payment-checklist/
+tenant-payment-tracker/
+utilities-payment-checklist/
+vince-daily-rebuild/
+
+# ── Safety net: never sync common local secret files ──
+*.secrets
+*.secret
+.secrets.*
+secrets.*
+.env
+*.env
+credentials.json
+.credentials.json
+
+# ── OS / editor junk ──
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+*.log
+.tmp/

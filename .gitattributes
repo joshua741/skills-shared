@@ -1,0 +1,6 @@
+# Normalize line endings so auto-sync doesn't churn on CRLF/LF differences
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
